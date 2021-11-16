@@ -13,7 +13,7 @@ int main()
  dist=sqrt(pow(yf[i]-yb[i],2)+pow(xf[i]-xb[i],2));
  cout<<i<<"\t"<<dist<<endl;
  if(i>time_limit)
- printf("\nTarget escapes")
+ printf("\nTarget escapes");
  if(dist<=10)
  break;
  else{
